@@ -1,0 +1,153 @@
+/*==============================================*/
+/* Fonts                                        */
+/*==============================================*/
+
+:root,
+body,
+header,
+footer,
+section,
+article,
+div,
+ul,
+ol,
+li,
+p,
+a,
+span,
+label,
+input,
+button {
+    font-family: 'Sniglet', 'Roboto', arial;
+}
+
+@font-face {
+    font-family: 'tomatoesregular';
+    src: url('../fonts/tomatoes_personal_use-webfont.eot');
+    src:
+        url('../fonts/tomatoes_personal_use-webfont.ttf') format('truetype'),
+        url('../fonts/tomatoes_personal_use-webfont.woff2') format('woff2'),
+        url('../fonts/tomatoes_personal_use-webfont.woff') format('woff'),
+        url('../fonts/tomatoes_personal_use-webfont.svg#tomatoesregular') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+.signature {
+    font-family: 'tomatoesregular', Arial, sans-serif;
+    color: #419be0;
+}
+
+
+body {
+    padding-top: 2.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+
+/*==============================================*/
+/* General                                      */
+/*==============================================*/
+.container {
+    margin-bottom: 3rem;
+}
+
+
+/*==============================================*/
+/* Navigation                                   */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: header, nav, ul, li, a, div.
+ */
+
+/*==============================================*/
+/* Articles                                     */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, h2, section, article.
+ */
+ 
+#accueil {
+	padding-top: 2rem;
+}
+
+article {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/*==============================================*/
+/* Recipes                                      */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, ul, li, p.
+ */
+
+
+#recettes {
+    margin: 0 auto;
+    padding: 40px;
+    width: 80%;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.slick-slide {
+    text-align: center;
+    color: #419be0;
+    background: white;
+    margin: 1rem;
+}
+
+.slick-prev:before {
+    color: #a5a5a5;
+}
+
+.slick-next:before {
+    color: #a5a5a5;
+}
+
+/*==============================================*/
+/* Contact                                      */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, label, input.
+ */
+
+#contact {
+	padding-top:2rem;
+}	
+
+.btn-primary {
+    background-color: #419be0;
+    border-color: #419be0;
+	margin-top: 1rem;
+}
+
+
+/*==============================================*/
+/* Footer                                       */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: p.
+ */
+
+footer {
+    background: #f8f9fa;
+}
